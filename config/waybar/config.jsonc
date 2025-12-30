@@ -19,11 +19,12 @@
     ],
     "custom/launcher": {
         "format": "󰣇",
-        "on-click": "wofi --show drun"
+        "on-click": "~/.config/rofi/launchers/type-7/launcher.sh"
     },
     "clock": {
         "format": "{:%I:%M %p}",
-        "format-alt": "{:%a, %d. %b}"
+        "format-alt": "{:%a, %d. %b}",
+        "tooltip": false
     },
     "hyprland/workspaces": {
         "format": "{name}",
